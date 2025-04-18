@@ -22,8 +22,11 @@ p{
 }
 
 li{
-    line-height: 2;
-    margin-bottom: 10px;
+      text-align: center; 
+      padding: 0;
+      margin: 0;
+      line-height: 2;
+      list-style-position: inside;
 }
 
 img#imagem1{
@@ -37,14 +40,44 @@ h2{
 }
 
 table{
-    display: flex;
-    flex-flow: column;
-    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
     border-collapse: collapse;
-    text-align: center;
+    border: 1px solid #6c6c6c;
 }
 
 th,td{
-    border: 1px solid black;
+    border: 1px solid #6c6c6c;
     padding: 10px;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+    background-color: lightblue;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+a:hover{
+    background-color: blue;
+    color: white;
+}
+
+button {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+
