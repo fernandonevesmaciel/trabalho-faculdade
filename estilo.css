@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 15px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    background-color:#e6f0ff;
+}
+
+h1{
+    color: rgb(51, 102, 153);
+    text-align: center;
+    margin: 15px;
+}
+
+p{
+    font-size: 1.2em;
+    text-align: justify;
+    margin: 15px;
+}
+
+li{
+    line-height: 2;
+    margin-bottom: 10px;
+}
+
+img#imagem1{
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+}
+
+h2{
+    text-align: center;
+}
+
+table{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+}
