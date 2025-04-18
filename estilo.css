@@ -97,13 +97,22 @@ button:hover{
         margin: 10px;
     }
 
+   
+
     table {
-        width: 100%;
+        min-width: 200px;
+        width: auto;
+        table-layout: auto;
     }
 
     img#imagem1 {
-        width: 100%;
+        width: 80%;
         height: auto;
+    }
+
+    img{
+        width: 200px;
+    
     }
 
    
